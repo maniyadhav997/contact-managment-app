@@ -16,7 +16,7 @@ A simple backend application for managing contacts, built using **Node.js, Expre
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/your-username/contact-managment-app.git
+git clone https://github.com/maniyadhav997/contact-managment-app.git
 cd contact-managment-app
 ```
 
