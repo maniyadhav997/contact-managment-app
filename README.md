@@ -1,29 +1,29 @@
-# Contact Management API
+# Contact Management App
 
-## Setup
+A simple **Contact Management System** built with **Node.js, Express, MongoDB, and Mongoose** to **store, retrieve, update, and delete contacts**.
 
-1. Clone repository
-2. Install dependencies: `npm install`
-3. Create `.env` file using `.env.example`
-4. Start server: `npm run dev`
+## Features
+- Add new contacts with **name, email, phone number, and address**.
+- Retrieve all contacts or search by **name** or **email**.
+- Update existing contacts.
+- Delete contacts.
+- Data validation using **express-validator**.
+- Uses **MongoDB Atlas** or **local MongoDB** for storage.
+- API supports **CORS** for frontend integration.
 
-## API Endpoints
+---
 
-| Method | Endpoint      | Description        |
-| ------ | ------------- | ------------------ |
-| GET    | /contacts     | Get all contacts   |
-| POST   | /contacts     | Create new contact |
-| GET    | /contacts/:id | Get single contact |
-| PUT    | /contacts/:id | Update contact     |
-| DELETE | /contacts/:id | Delete contact     |
+## Tech Stack
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (Mongoose ODM)
+- **Validation**: express-validator
+- **Testing**: Jest & Supertest
 
-## Testing
+---
 
-Run tests: `npm test`
+## Installation & Setup
 
-## Deployment
-
-1. Create Heroku app
-2. Set config vars:
-   - MONGODB_URI (your MongoDB connection string)
-3. Deploy using Git
+### 1. Clone the repository
+```sh
+git clone https://github.com/your-username/contact-managment-app.git
+cd contact-managment-app
