@@ -25,5 +25,5 @@ A simple **Contact Management System** built with **Node.js, Express, MongoDB, a
 
 ### 1. Clone the repository
 ```sh
-git clone https://github.com/your-username/contact-managment-app.git
+git clone https://github.com/maniyadhav997/contact-managment-app.git
 cd contact-managment-app
